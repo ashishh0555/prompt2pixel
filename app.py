@@ -117,7 +117,7 @@ if generate_clicked:
                     st.download_button(
                         "⬇️ Download",
                         data=image_to_bytes(img),
-                        file_name=f"promptcanvas_{idx + 1}.png",
+                        file_name=f"Prompt2Pixel_{idx + 1}.png",
                         mime="image/png",
                         key=f"dl_{idx}_{datetime.now().timestamp()}",
                     )
